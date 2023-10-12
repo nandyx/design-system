@@ -1,0 +1,18 @@
+{
+  "name": "@mds/foundation",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build-tokens": "style-dictionary build --config sd.config.js",
+    "build": "yarn build-tokens && tsc",
+    "build-tsc": "tsc --skipLibCheck",
+    "tsc-ve": "tsc --version"
+  },
+  "devDependencies": {
+    "style-dictionary": "3.8.0",
+    "tsconfig": "*",
+    "typescript": "5.2.2"
+  }
+}
