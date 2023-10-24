@@ -1,0 +1,38 @@
+{
+    "source": [
+        "src/tokens/test/colors.json",
+        "src/tokens/test/typo.json"
+    ],
+    "platforms": {
+        "web": {
+            "transformGroup": "custom/web",
+            "buildPath": "dist/tokens/web/",
+            "files": [
+                {
+                    "destination": "tokens.js",
+                    "format": "javascript/es6"
+                }
+            ]
+        },
+        "scss": {
+            "transformGroup": "custom/scss",
+            "buildPath": "dist/tokens/scss/",
+            "files": [
+                {
+                    "destination": "tokens.scss",
+                    "format": "scss/variables"
+                }
+            ]
+        },
+        "css": {
+            "transformGroup": "custom/css",
+            "buildPath": "dist/tokens/css/",
+            "files": [
+                {
+                    "destination": "tokens.css",
+                    "format": "css/variables"
+                }
+            ]
+        }
+    }
+}

@@ -5,7 +5,10 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
+    "build:all": "node ./build.js",
+    "build:tokens": "node ./build-tokens.cjs",
     "build-tokens": "style-dictionary build --config sd.config.js",
+    "build:fonts": "style-dictionary build --config sd-font.config.js",
     "build": "yarn build-tokens && tsc",
     "build-tsc": "tsc --skipLibCheck",
     "tsc-ve": "tsc --version"
@@ -14,5 +17,8 @@
     "style-dictionary": "3.8.0",
     "tsconfig": "*",
     "typescript": "5.2.2"
+  },
+  "dependencies": {
+    "@tokens-studio/sd-transforms": "0.11.6"
   }
 }

@@ -1,0 +1,43 @@
+{
+    "font": {
+        "400": {
+            "value": {
+                "family": {
+                    "type": "string",
+                    "value": "PP Object Sans"
+                },
+                "subfamily": {
+                    "type": "string",
+                    "value": "Regular"
+                }
+            },
+            "type": "font"
+        },
+        "700": {
+            "value": {
+                "family": {
+                    "type": "string",
+                    "value": "PP Object Sans"
+                },
+                "subfamily": {
+                    "type": "string",
+                    "value": "Bold"
+                }
+            },
+            "type": "font"
+        },
+        "800": {
+            "value": {
+                "family": {
+                    "type": "string",
+                    "value": "PP Object Sans"
+                },
+                "subfamily": {
+                    "type": "string",
+                    "value": "Heavy"
+                }
+            },
+            "type": "font"
+        }
+    }
+}

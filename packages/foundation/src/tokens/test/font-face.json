@@ -1,0 +1,40 @@
+{
+    "asset": {
+        "font": {
+            "Roboto": {
+                "400": {
+                    "normal": {
+                        "value": "assets/fonts/roboto-V20-latin-regular",
+                        "formats": [
+                            "woff2",
+                            "woff"
+                        ]
+                    },
+                    "italic": {
+                        "value": "assets/fonts/roboto-V20-latin-italic",
+                        "formats": [
+                            "woff2",
+                            "woff"
+                        ]
+                    }
+                },
+                "700": {
+                    "normal": {
+                        "value": "assets/fonts/roboto-V20-latin-700",
+                        "formats": [
+                            "woff2",
+                            "woff"
+                        ]
+                    },
+                    "italic": {
+                        "value": "assets/fonts/roboto-V20-latin-700italic",
+                        "formats": [
+                            "woff2",
+                            "woff"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
