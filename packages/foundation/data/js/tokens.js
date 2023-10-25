@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 25 Oct 2023 15:22:26 GMT
+ * Generated on Wed, 25 Oct 2023 15:58:32 GMT
  */
 
 module.exports = {
@@ -1934,6 +1934,140 @@ module.exports = {
           "danger",
           "900"
         ]
+      }
+    }
+  },
+  "asset": {
+    "font": {
+      "Roboto": {
+        "400": {
+          "normal": {
+            "value": "assets/fonts/roboto-V20-latin-regular",
+            "formats": [
+              "woff2",
+              "woff"
+            ],
+            "filePath": "data/font-face.json",
+            "isSource": true,
+            "original": {
+              "value": "assets/fonts/roboto-V20-latin-regular",
+              "formats": [
+                "woff2",
+                "woff"
+              ]
+            },
+            "name": "AssetFontRoboto400Normal",
+            "attributes": {
+              "category": "asset",
+              "type": "font",
+              "item": "Roboto",
+              "subitem": "400",
+              "state": "normal"
+            },
+            "path": [
+              "asset",
+              "font",
+              "Roboto",
+              "400",
+              "normal"
+            ]
+          },
+          "italic": {
+            "value": "assets/fonts/roboto-V20-latin-italic",
+            "formats": [
+              "woff2",
+              "woff"
+            ],
+            "filePath": "data/font-face.json",
+            "isSource": true,
+            "original": {
+              "value": "assets/fonts/roboto-V20-latin-italic",
+              "formats": [
+                "woff2",
+                "woff"
+              ]
+            },
+            "name": "AssetFontRoboto400Italic",
+            "attributes": {
+              "category": "asset",
+              "type": "font",
+              "item": "Roboto",
+              "subitem": "400",
+              "state": "italic"
+            },
+            "path": [
+              "asset",
+              "font",
+              "Roboto",
+              "400",
+              "italic"
+            ]
+          }
+        },
+        "700": {
+          "normal": {
+            "value": "assets/fonts/roboto-V20-latin-700",
+            "formats": [
+              "woff2",
+              "woff"
+            ],
+            "filePath": "data/font-face.json",
+            "isSource": true,
+            "original": {
+              "value": "assets/fonts/roboto-V20-latin-700",
+              "formats": [
+                "woff2",
+                "woff"
+              ]
+            },
+            "name": "AssetFontRoboto700Normal",
+            "attributes": {
+              "category": "asset",
+              "type": "font",
+              "item": "Roboto",
+              "subitem": "700",
+              "state": "normal"
+            },
+            "path": [
+              "asset",
+              "font",
+              "Roboto",
+              "700",
+              "normal"
+            ]
+          },
+          "italic": {
+            "value": "assets/fonts/roboto-V20-latin-700italic",
+            "formats": [
+              "woff2",
+              "woff"
+            ],
+            "filePath": "data/font-face.json",
+            "isSource": true,
+            "original": {
+              "value": "assets/fonts/roboto-V20-latin-700italic",
+              "formats": [
+                "woff2",
+                "woff"
+              ]
+            },
+            "name": "AssetFontRoboto700Italic",
+            "attributes": {
+              "category": "asset",
+              "type": "font",
+              "item": "Roboto",
+              "subitem": "700",
+              "state": "italic"
+            },
+            "path": [
+              "asset",
+              "font",
+              "Roboto",
+              "700",
+              "italic"
+            ]
+          }
+        }
       }
     }
   },

@@ -62,11 +62,11 @@ StyleDictionary.registerFormat({
 });
 
 module.exports = {
-  source: ['src/tokens/test/**/*.json'],
+  source: ['data/font-face.json'],
   platforms: {
     'css-font-face': {
       transforms: ['attribute/font'],
-      buildPath: 'build/css/',
+      buildPath: 'dist/css/',
       files: [
         {
           destination: 'fonts.css',
@@ -85,7 +85,7 @@ module.exports = {
     },
     'scss-font-face': {
       transforms: ['attribute/font'],
-      buildPath: 'build/scss/',
+      buildPath: 'dist/scss/',
       files: [
         {
           destination: '_fonts.scss',

@@ -5,11 +5,9 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build:all": "node ./build.js",
-    "build:tokens": "node ./build-tokens.cjs",
-    "build-tokens": "style-dictionary build --config sd.config.js",
-    "build:fonts": "style-dictionary build --config sd-font.config.js",
-    "build": "yarn build-tokens && tsc",
+    "build": "yarn build:tokens && yarn build:fonts && tsc",
+    "build:tokens": "node ./scripts/build.js",
+    "build:fonts": "style-dictionary build --config ./scripts/fontBuild.js",
     "build-tsc": "tsc --skipLibCheck",
     "tsc-ve": "tsc --version"
   },
