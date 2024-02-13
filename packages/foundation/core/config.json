@@ -1,0 +1,50 @@
+{
+    "source": [
+        "data/**/*.json"
+    ],
+    "platforms": {
+        "css": {
+            "transformGroup": "tokens-studio",
+            "basePxFontSize": "16",
+            "buildPath": "src/tokens/css/",
+            "files": [
+                {
+                    "destination": "tokens.css",
+                    "format": "css/variables"
+                }
+            ]
+        },
+        "scss": {
+            "transformGroup": "tokens-studio",
+            "prefix": "mds",
+            "buildPath": "src/tokens/scss/",
+            "transforms": [
+                "name/cti/kebab"
+            ],
+            "files": [
+                {
+                    "destination": "tokens.scss",
+                    "format": "scss/variables"
+                }
+            ]
+        },
+        "js": {
+            "transformGroup": "js",
+            "buildPath": "src/tokens/",
+            "transforms": [
+                "name/cti/constant"
+            ],
+            "prefix": "MDS",
+            "files": [
+                {
+                    "format": "javascript/es6",
+                    "destination": "index.js"
+                },
+                {
+                    "format": "typescript/es6-declarations",
+                    "destination": "index.d.ts"
+                }
+            ]
+        }
+    }
+}
